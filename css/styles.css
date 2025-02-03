@@ -59,10 +59,12 @@ nav a {
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
+}
+.nav-link {
   letter-spacing: 0.02em;
 }
-.nav-studio:hover,
-.nav-studio:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -110,22 +112,36 @@ footer {
 .accent-button:focus {
   background-color: #404bbf;
 }
-.services-section p {
-  color: var(--secondary-color);
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-}
 
 .team-section {
   background-color: var(--primary-text-light);
 }
 
-.our-team-header {
+.team-section p{
+    font-size: 16px;
+  }
+
+.section-header {
   line-height: 1.11;
   letter-spacing: 0.02em;
   /* не рекомендується використовувати. Не на всіх мовах це буде писатиться з великої літери */
   text-transform: capitalize;
+}
+
+.section-secondary-header {
+    letter-spacing: 0.02em;
+}
+
+.services-section-header {
+    letter-spacing: 0.02em;
+}
+
+.service-description {
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
 }
 
 .team-section h2,
